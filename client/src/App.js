@@ -16,6 +16,7 @@ import notify from './utils/notifyDispatcher';
 
 import { Paper } from '@material-ui/core/';
 import { useMainPaperStyles } from './styles/muiStyles';
+import { footerStyles } from './styles/muiStyles';
 
 const App = () => {
   const [{ user }, authDispatch] = useAuthContext();
@@ -66,6 +67,7 @@ const App = () => {
             message={notification.message}
           />
         )}
+        <p className={footerStyles().footerText}>Created by Bhavik</p>
       </Paper>
   );
 };

@@ -130,6 +130,14 @@ export const useTopPanelStyles = makeStyles(
   })
 );
 
+export const footerStyles = makeStyles(
+  () => ({
+    footerText: {
+      textAlign: 'center'
+    }
+  })
+);
+
 export const useDeleteBtnStyles = makeStyles(
   () => ({
     deleteButton: {

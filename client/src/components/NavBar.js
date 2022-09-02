@@ -77,7 +77,7 @@ const NavBar = () => {
               <div className={classes.logoWrapper}>
                 <Typography variant = 'h5' className={classes.logo}>
                   <ListAltRoundedIcon className={classes.logoIcon} />
-                  TO-DO-LIST
+                  TASK--MAN
                 </Typography>
               </div>
             ) : (
